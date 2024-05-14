@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace Lucrare_Licenta
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form f = new Form2();
+            Form f = new Form4();
             f.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form f = new Form3();
+            Form f = new Form5();
             f.Show();
         }
     }
